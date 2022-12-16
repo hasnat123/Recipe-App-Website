@@ -1,0 +1,27 @@
+.feature
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 18rem;
+
+    .icon
+    {
+        font-size: 1.5rem;
+        color: var(--button-color);
+    }
+
+    .heading
+    {
+        font-size: 18px;
+        color: #000000;
+        margin-bottom: 0.35rem;
+        margin-top: 1.35rem;
+    }
+    p
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}

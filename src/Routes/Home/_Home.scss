@@ -1,0 +1,18 @@
+.section
+{
+    @media screen and (min-width: 1024px)
+    {
+      padding: 0 10vw;
+    }
+}
+
+
+@import './Components/SectionTwo/SectionTwo';
+@import './Components/SectionThree/SectionThree';
+@import './Components/SectionFour/SectionFour';
+@import './Components/SectionFive/SectionFive';
+@import './Components/SectionSix/SectionSix';
+@import './Components/SectionSeven/SectionSeven';
+@import './Components/Footer/Footer';
+
+

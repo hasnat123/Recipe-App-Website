@@ -1,0 +1,16 @@
+.stat
+{
+    text-align: center;
+    .number
+    {
+        font-size: 60px;
+        color: var(--number-font-color);
+    }
+
+    .label
+    {
+        font-size: 18px;
+        color: #000000;
+        margin-top: 0.7rem;
+    }
+}

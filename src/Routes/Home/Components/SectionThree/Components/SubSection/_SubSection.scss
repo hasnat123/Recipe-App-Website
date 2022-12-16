@@ -1,0 +1,44 @@
+.sub-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vh 19vw 10vh 8.5vw;
+
+    &.bottom
+    {
+        padding: 10vh 14.35vw 10vh 8.5vw;
+        
+        img
+        {
+            width: 18.5rem;  
+        }
+    }
+
+    .text
+    {
+        width: 11rem;
+        .sub-heading
+        {
+            font-size: 12px;
+            color: var(--sub-heading-font-color);
+            ;text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .heading
+        {
+            font-size: 38px;
+            color: #000000;
+            margin: 0.9rem 0;
+        }
+        p
+        {
+            font-size: 16px;
+            line-height: 30px;
+        }
+    }
+    img
+    {
+        width: 12.2rem;
+    }
+}

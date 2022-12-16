@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Nunito&display=swap');
+
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root
+{
+    --main-font: "Gothic A1", sans-serif;
+
+    --main-font-color: #6B6B6B;
+    --heading-font-color: #000000;
+    --sub-heading-font-color: #A8A8A8;
+    --number-font-color: #333333;
+    --hover-color: #fff;
+    --button-color: #fc0a7e;
+
+    --main-font-size: clamp(0.75rem, 2vw, 1.75rem);
+
+}
+
+html
+{
+    font-family: var(--main-font);
+    font-size: clamp(0.75rem, 2vw, 1.75rem);
+    color: var(--main-font-color);
+    scroll-behavior: smooth;
+}
+
+body
+{
+    overflow-x: hidden;
+    background: #fff;
+}
+
+
+//Home page
+@import './Routes/Home/Home';
+
+//Navbar
+@import './Components/Navbar/Navbar';
+
+//Hero
+@import './Routes/Home/Components/Hero/Hero';

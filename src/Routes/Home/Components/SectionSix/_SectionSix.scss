@@ -1,0 +1,45 @@
+.section-six
+{
+    padding: 0 2vw;
+
+    .carousel
+    {
+        padding: 10vh 0 20vh 0;
+        .arrow
+        {
+            position: absolute;
+            font-size: 1.3rem;
+            color: #c5c4c4;
+            cursor: pointer;
+
+            &.right
+            {
+                right: 2.75rem;
+            }
+
+            &.left
+            {
+                left: 2.75rem;
+            }
+        }
+
+        .react-multi-carousel-dot-list
+        {
+            li
+            {
+
+                height: 35px;
+                width: 22.5px;
+                button
+                {
+                    border: none;
+                    width: 7px;
+                    height: 7px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@import './Components/CarouselItem/CarouselItem';

@@ -1,0 +1,14 @@
+.sub-section-two
+{
+    padding: 10vh 8.5vw 10vh 19vw;
+
+    img
+    {
+        width: 14rem;
+    }
+
+    &.bottom
+    {
+        padding: 10vh 8.5vw 10vh 14.35vw;
+    }
+}

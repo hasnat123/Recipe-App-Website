@@ -1,0 +1,67 @@
+.section-seven
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img
+    {
+        display: block; 
+        width: 100%;
+
+        &:first-child
+        {
+            width: 60%;
+            margin: 5.25rem 0;
+        }
+    }
+
+    .strip
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 55vh;
+        color: #fff;
+        background-image: url('./../../../../Assets/Images/SectionSevenImage2.svg'), linear-gradient(135deg, #fc0a7e, #602bb6);
+        background-size: cover;
+        background-position: 50% 50%;
+        .inner
+        {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            gap: 45px 0px;
+            .heading
+            {
+                font-size: 40px;
+            }
+    
+            .buttons
+            {
+                display: flex;
+                justify-content: space-evenly;
+                
+                a
+                {
+                    color: #fff;
+                    padding: 20px 40px;
+                    font-size: 16px;
+                    font-weight: 600px;
+                    line-height: 26px;
+                    background: #fc0a7e;
+                    border-radius: 3px;
+                    transition: background-color 0.5s, color 0.5s;
+
+                    &:hover
+                    {
+                        background: var(--hover-color);
+                        color: var(--main-font-color);
+                    }
+                }
+            }
+
+
+        }
+    }
+}
