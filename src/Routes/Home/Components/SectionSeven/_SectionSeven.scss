@@ -7,11 +7,15 @@
     {
         display: block; 
         width: 100%;
-
         &:first-child
         {
             width: 60%;
             margin: 5.25rem 0;
+        }
+
+        &:last-of-type
+        {
+            z-index: -1;
         }
     }
 
